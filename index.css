@@ -1,0 +1,33 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.carousel-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 7px;
+}
+
+.top-course {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+a {
+    color: black;
+}
+
+.nav-link {
+    color: black;
+}
+
+span {
+    color: blue;
+}
